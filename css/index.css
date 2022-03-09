@@ -2,3 +2,20 @@
     padding: 50px;
     margin: 50px;
 }
+
+.bg-menu {
+    background-color: #798478;
+}
+
+body{
+    background-image: url("/img/fondo.jpeg");
+}
+
+
+COLORS {
+    #eae0cc
+    #c9ada1
+    #a0a083
+    #798478
+    #4d6a6d
+}
