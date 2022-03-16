@@ -1,0 +1,47 @@
+.lugarBotones {
+    display:inline-block; 
+    margin-top: 50px;
+    margin-left:15% ;
+    display: flex;
+    flex-direction:column;
+    height: 350px;
+}
+
+#formNuevosClientes {
+    margin-left: 200px;
+}
+
+#formulario {
+    margin-left: 200px;
+}
+
+#formulario h1 {
+    color: rgba(255, 174, 0, 0.514);
+    font-family: cursive;
+    text-align: center;
+}
+
+#formulario label {
+    color: white;
+        
+}
+
+#formNuevosClientes label {
+    color: white;
+}
+
+#formNuevosClientes h1 {
+    color: rgba(255, 174, 0, 0.514);
+    font-family: cursive;
+    text-align: center;
+}
+
+.botones a{
+    color: rgb(70, 70, 70);
+    background-color: hsl(226, 100%, 90%);
+    padding: 1em;
+    border-radius: 35%;
+    text-decoration: none;
+    margin-bottom: 45px;
+    text-align: center;
+}
