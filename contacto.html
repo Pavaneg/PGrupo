@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Material Design for Bootstrap</title>
+  <title>Inmobiliaria Lema</title>
   <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="img/logotipoimnobiliaria3.png" type="image/x-icon" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
   <!-- Google Fonts Roboto -->
@@ -18,167 +18,259 @@
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-menu">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
 
-  <body>
-    <header>
-      <!-- Navbar -->
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-menu">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Toggle button -->
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img src="img/logotipoimnobiliaria3.png" height="70" alt="MDB Logo" loading="lazy" />
-              Lema Inmobiliaria
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+          <img src="img/logotipoimnobiliaria3.png" height="70" alt="MDB Logo" loading="lazy" />
+          Lema Inmobiliaria
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              Formularios
             </a>
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                  data-mdb-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="formulario.html">Registro/Acce</a></li>
+              <li><a class="dropdown-item" href="formularioventa.html">Venta</a></li>
+              <li><a class="dropdown-item" href="formulariocompra.html">Compra</a></li>
             </ul>
-            </ul>
-            <!-- Left links -->
-          </div>
-          <!-- Collapsible wrapper -->
+          </li>
+        </ul>
 
-          <!-- Right elements -->
-          <div class="d-flex align-items-center text-light">
-            <!-- Search -->
-            <form class="d-flex input-group w-auto">
-              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                aria-describedby="search-addon" />
-              <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search text-light"></i>
-              </span>
-            </form>
-            <!-- Search -->
-            <!-- Notifications -->
-            <div class="dropdown">
-              <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
-                data-mdb-toggle="dropdown" aria-expanded="false">
-                <i class="fas fa-bell"></i>
-                <span class="badge rounded-pill badge-notification bg-danger">1</span>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <a class="dropdown-item" href="#">Some news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Another news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Avatar -->
-            <div class="dropdown">
-              <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
-                role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
-                  alt="Black and White Portrait of a Man" loading="lazy" />
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
-                <li>
-                  <a class="dropdown-item" href="#">My profile</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Settings</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Logout</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Right elements -->
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+
+      <!-- Right elements -->
+      <div class="d-flex align-items-center text-light">
+        <!-- Search -->
+        <form class="d-flex input-group w-auto">
+          <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="Search"
+            aria-describedby="search-addon" />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search text-light"></i>
+          </span>
+        </form>
+        <!-- Search -->
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#">Nuestras noticias</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Otras noticias</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">¿Algo más?</a>
+            </li>
+          </ul>
         </div>
-        <!-- Container wrapper -->
-      </nav>
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1450.1255024576324!2d-8.402504975948462!3d43.371775425630446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c7eaa6dc1c1%3A0xe271729d9bc7fbec!2sC.%20Sol%2C%2016%2C%2015003%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1646998446414!5m2!1ses!2ses"
-        width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-
-      <div class="d-flex flex-row justify-content-around p-2">
-        <div class="card container mx-1">
-          <div class="card-header">Contacto Administrativo</div>
-          <div class="card-body">
-            <h5 class="card-title">Diego García Miño</h5>
-            <p class="card-text">Ponte en contacto con nuestro administrativo con cualquier duda sobre la compra-venta
-              de nuestras propiedades.</p>
-            <a href="#" class="btn btn-primary">Contactar</a>
-          </div>
-          <div class="card-footer text-muted">Más de 10 años de experiencia</div>
-        </div>
-
-        <div class="card container mx-1 p-3">
-          <h5>Contacto</h5>
-          <form class="bg-white">
-            <!-- Name input -->
-            <div class="form-outline mb-4">
-              <input type="text" id="form4Example1" class="form-control" />
-              <label class="form-label" for="form4Example1">Nombre</label>
-            </div>
-            <hr>
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-              <input type="email" id="form4Example2" class="form-control" />
-              <label class="form-label" for="form4Example2">Correo electrónico</label>
-            </div>
-            <hr>
-            <div class="form-outline mb-4">
-              <input type="phone-number" id="form4Example2" class="form-control" />
-              <label class="form-label" for="form4Example2">Número teléfono</label>
-            </div>
-            <hr>
-            <!-- Message input -->
-            <div class="form-outline mb-4">
-              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-              <label class="form-label" for="form4Example3">Mensaje:</label>
-            </div>
-            <hr>
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-              <label class="form-check-label" for="form4Example4">
-                Guardar mensaje
-              </label>
-            </div>
-
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-          </form>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+              alt="Black and White Portrait of a Man" loading="lazy" />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+            <li>
+              <a class="dropdown-item" href="favoritos.html">Mis favoritos</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
         </div>
       </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <iframe class="mt-3"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1450.12552698083!2d-8.4019285!3d43.3717744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c7eaa6dc1c1%3A0xe271729d9bc7fbec!2sC.%20Sol%2C%2016%2C%2015003%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1647602796683!5m2!1ses!2ses"
+    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <h1 class="text-center mt-2">Contacto</h1>
+  <div class="d-flex flex-row justify-content-between p-2">
+    <div class="card container mx-1">
+      <div class="card-header">Contacto Administrativo</div>
+      <div class="card-body">
+        <h5 class="card-title">Diego García Miño</h5>
+        <p class="card-text mt-4">El contacto administrativo (Admin-C) es una persona física designada por el
+          propietario del dominio. Este contacto está obligado ante el organismo registrador a pronunciarse sobre todas
+          las cuestiones relativas al dominio. Solo se puede designar a un Admin-C por dominio.</p>
+        <p class="card-text">Ponte en contacto con nuestro administrativo con cualquier duda sobre la compra-venta
+          de nuestras propiedades.</p>
+        <a href="#" class="btn btn-primary">Contactar</a>
+        <p class="card-text mt-4">También podrás inscribirte en un curso completamente gratuito dirigido por nuestro
+          contacto administrativo con 200 horas para aprender sobre este negocio. Viene incluido con título que podrás
+          descargar en PDF, una vez finalizado el curso.</p>
+        <a href="#" class="btn btn-primary">Inscribirse</a>
+      </div>
+      <div class="card-footer text-muted">Más de 20 años de experiencia</div>
+    </div>
+    <div class="card container mx-1 p-3">
+      <h5>Contacto</h5>
+      <form class="bg-white">
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Nombre</label>
+        </div>
+        <hr>
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Correo electrónico</label>
+        </div>
+        <hr>
+        <div class="form-outline mb-4">
+          <input type="tel" id="form4Example4" class="form-control" />
+          <label class="form-label" for="form4Example4">Número teléfono</label>
+        </div>
+        <hr>
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Mensaje:</label>
+        </div>
+        <hr>
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form8Example4" checked />
+          <label class="form-check-label" for="form8Example4">
+            Guardar mensaje
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+          Enviar
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-dark" id="exampleModalLabel">Mensaje enviado correctamente!</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-dark text-align-left">Un agente de nuestra compañía se pondrá en contacto
+                contigo.</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-mdb-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-menu text-light mt-5">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        Siguenos en nuestras redes sociales:
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/eastandwesthomes/?view_public_for=103694421128548" class="me-4 text-light">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/alisedainmo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          class="me-4 text-light">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-light">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com/eaw_homes/?hl=es" class="me-4 text-light">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class=" light fas fa-home me-3"></i>Inmobiliaria Lema
+            </h6>
+            <p>
+              Inmobiliaria Lema, surgió de la necesidad de poner en práctica una serie de proyectos para ofrecer una
+              amplia gama de servicios en el sector inmobiliario de Galicia.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <p><i class="fas fa-map-marker-alt me-3"></i> Rúa Sol, 16, 15003 A Coruña</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              inmobiliariaLema@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +34 987 654 321</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
 
 </html>

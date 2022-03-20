@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="es">
 
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Inmobiliaria Lema</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/logotipoimnobiliaria3.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -19,7 +17,6 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
-</head>
 
 <body>
 
@@ -38,34 +35,32 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
             <img src="img/logotipoimnobiliaria3.png" height="70" alt="MDB Logo" loading="lazy" />
             Lema Inmobiliaria
           </a>
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Dashboard</a>
+              <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
             <!-- Dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                 aria-expanded="false">
-                Dropdown
+                Formularios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="formularioventa.html">Venta</a></li>
+                <li><a class="dropdown-item" href="formulariocompra.html">Compra</a></li>
               </ul>
             </li>
-          </ul>
           </ul>
           <!-- Left links -->
         </div>
@@ -75,8 +70,8 @@
         <div class="d-flex align-items-center text-light">
           <!-- Search -->
           <form class="d-flex input-group w-auto">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-              aria-describedby="search-addon" />
+            <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="Search"
+            aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
               <i class="fas fa-search text-light"></i>
             </span>
@@ -91,13 +86,13 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="#">Some news</a>
+                <a class="dropdown-item" href="#">Nuestras noticias</a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">Another news</a>
+                <a class="dropdown-item" href="#">Otras noticias</a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">¿Algo más?</a>
               </li>
             </ul>
           </div>
@@ -110,7 +105,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
               <li>
-                <a class="dropdown-item" href="#">My profile</a>
+                <a class="dropdown-item" href="favoritos.html">Mis favoritos</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">Settings</a>
@@ -133,11 +128,11 @@
     <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
       <li class="nav-item" role="presentation">
         <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
-          aria-controls="pills-login" aria-selected="true">Login</a>
+          aria-controls="pills-login" aria-selected="true">Acceso</a>
       </li>
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"
-          aria-controls="pills-register" aria-selected="false">Register</a>
+          aria-controls="pills-register" aria-selected="false">Registro</a>
       </li>
     </ul>
     <!-- Pills navs -->
@@ -147,7 +142,7 @@
       <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
         <form>
           <div class="text-center mb-3">
-            <p>Sign in with:</p>
+            <p>Iniciar sesión con:</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
@@ -165,18 +160,18 @@
             </button>
           </div>
 
-          <p class="text-center">or:</p>
+          <p class="text-center">o:</p>
 
           <!-- Email input -->
           <div class="form-outline mb-4">
             <input type="email" id="loginName" class="form-control" />
-            <label class="form-label" for="loginName">Email or username</label>
+            <label class="form-label" for="loginName">Email o nombre de usuario</label>
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="loginPassword" class="form-control" />
-            <label class="form-label" for="loginPassword">Password</label>
+            <input type="password" id="contraseña" class="form-control" />
+            <label class="form-label" for="contraseña">Contraseña</label>
           </div>
 
           <!-- 2 column grid layout -->
@@ -185,29 +180,29 @@
               <!-- Checkbox -->
               <div class="form-check mb-3 mb-md-0">
                 <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-                <label class="form-check-label" for="loginCheck"> Remember me </label>
+                <label class="form-check-label" for="loginCheck">Recordar</label>
               </div>
             </div>
 
             <div class="col-md-6 d-flex justify-content-center">
               <!-- Simple link -->
-              <a href="#!">Forgot password?</a>
+              <a href="#!">¿Olvidaste tu contraseña?</a>
             </div>
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+          <button type="submit" class="btn btn-primary btn-block mb-4">Firma</button>
 
           <!-- Register buttons -->
           <div class="text-center">
-            <p>Not a member? <a href="#!">Register</a></p>
+            <p>¿No tienes usuario? <a href="#!">Registrate</a></p>
           </div>
         </form>
       </div>
       <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
         <form>
           <div class="text-center mb-3">
-            <p>Sign up with:</p>
+            <p>Iniciar sesión con:</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
@@ -225,18 +220,18 @@
             </button>
           </div>
 
-          <p class="text-center">or:</p>
+          <p class="text-center">o:</p>
 
           <!-- Name input -->
           <div class="form-outline mb-4">
             <input type="text" id="registerName" class="form-control" />
-            <label class="form-label" for="registerName">Name</label>
+            <label class="form-label" for="registerName">Nombre</label>
           </div>
 
           <!-- Username input -->
           <div class="form-outline mb-4">
             <input type="text" id="registerUsername" class="form-control" />
-            <label class="form-label" for="registerUsername">Username</label>
+            <label class="form-label" for="registerUsername">Nombre Usuario</label>
           </div>
 
           <!-- Email input -->
@@ -248,13 +243,13 @@
           <!-- Password input -->
           <div class="form-outline mb-4">
             <input type="password" id="registerPassword" class="form-control" />
-            <label class="form-label" for="registerPassword">Password</label>
+            <label class="form-label" for="registerPassword">Contraseña</label>
           </div>
 
           <!-- Repeat Password input -->
           <div class="form-outline mb-4">
             <input type="password" id="registerRepeatPassword" class="form-control" />
-            <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+            <label class="form-label" for="registerRepeatPassword">Repite contraseña</label>
           </div>
 
           <!-- Checkbox -->
@@ -262,12 +257,12 @@
             <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
               aria-describedby="registerCheckHelpText" />
             <label class="form-check-label" for="registerCheck">
-              I have read and agree to the terms
+              He leído y acepto los términos de uso.
             </label>
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+          <button type="submit" class="btn btn-primary btn-block mb-3">Firma</button>
         </form>
       </div>
     </div>
@@ -276,108 +271,79 @@
 
 
 
-  <footer class="text-center text-lg-start bg-menu text-light mt-5">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
-
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-light">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class=" light fas fa-gem me-3"></i>Company name
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Contact
-            </h6>
-            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@example.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
   <!-- Footer -->
+<footer class="text-center text-lg-start bg-menu text-light mt-5">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      Siguenos en nuestras redes sociales:
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/eastandwesthomes/?view_public_for=103694421128548" class="me-4 text-light">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/alisedainmo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="me-4 text-light">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-light">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/eaw_homes/?hl=es" class="me-4 text-light">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class=" light fas fa-home me-3"></i>Inmobiliaria Lema
+          </h6>
+          <p>
+            Inmobiliaria Lema, surgió de la necesidad de poner en práctica una serie de proyectos para ofrecer una amplia gama de servicios en el sector inmobiliario de Galicia.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <p><i class="fas fa-map-marker-alt me-3"></i> Rúa Sol, 16, 15003 A Coruña</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            inmobiliariaLema@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +34 987 654 321</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
 
 
